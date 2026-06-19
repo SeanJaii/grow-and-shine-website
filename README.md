@@ -20,7 +20,7 @@ The original `.dc.html` files remain as design handoff references only.
 A two-page marketing website for **Grow and Shine Childminding**, a registered childminder / nursery service based in Dagenham, London. The site is aimed at parents and families looking for childcare. The design is playful, warm, and colourful — appropriate for a childminding setting.
 
 ## About the Design Files
-The files in this bundle (`Grown and Shine Homepage.dc.html` and `Grow and Shine Gallery.dc.html`) are **high-fidelity design references built in HTML**. They are prototypes showing the intended look, layout, animations, and interactive behaviour — not production code to copy directly.
+The files in this bundle (`grow and Shine Homepage.dc.html` and `Grow and Shine Gallery.dc.html`) are **high-fidelity design references built in HTML**. They are prototypes showing the intended look, layout, animations, and interactive behaviour — not production code to copy directly.
 
 The task is to **recreate these designs in a real web stack** (e.g. Next.js + Tailwind, or plain HTML/CSS/JS if no framework is required) following best practices: semantic HTML, accessible markup, optimised images, real routing, and a contact form backend.
 
@@ -31,7 +31,7 @@ The task is to **recreate these designs in a real web stack** (e.g. Next.js + Ta
 
 ## Pages
 
-### 1. Homepage (`Grown and Shine Homepage.dc.html`)
+### 1. Homepage (`grow and Shine Homepage.dc.html`)
 
 **Purpose:** Marketing landing page. Introduces the childminder, showcases programs, displays a gallery teaser, and drives enquiries via email/phone.
 
@@ -46,7 +46,7 @@ The task is to **recreate these designs in a real web stack** (e.g. Next.js + Ta
 - **Left:** Logo image (`images/logo.png`) — height `64px`, auto width
 - **Right:** Nav links + CTA button
   - "Gallery" link → `/gallery` — `font-size: 15px; font-weight: 600; color: #2D2A32` — hidden on mobile
-  - "Book a Visit" button → `mailto:hello@grownandshine.co.uk?subject=Nursery%20Tour`
+  - "Book a Visit" button → `mailto:Lanzanal@aol.com?subject=Nursery%20Tour`
     - Background: `#FFD166`, color: `#2D2A32`, padding: `10px 24px`, border-radius: `28px`, font-size: `14px`, font-weight: `700`
     - Hover: `translateY(-2px)`, enhanced box-shadow
 
@@ -167,7 +167,7 @@ Each card: `border-radius: 24px`, `padding: 36px 32px`, `border: 2px solid`
 - `<h2>` "Ready to start the adventure?" — Baloo 2, `40px`, weight `800`
 - Sub: `17px`, `color: rgba(255,255,255,0.7)`
 - Buttons row (`gap: 14px`):
-  - "Book a Tour" → `mailto:hello@grownandshine.co.uk?subject=Nursery%20Tour`
+  - "Book a Tour" → `mailto:Lanzanal@aol.com?subject=Nursery%20Tour`
     - Background: `#FFD166`, color: `#2D2A32`, `border-radius: 32px`, `padding: 15px 32px`, `font-size: 16px`, weight `700`
   - "Call Us" → `tel:07912343431`
     - `border: 2px solid rgba(255,255,255,0.4)`, `color: #fff`, `border-radius: 32px`, `padding: 15px 32px`
@@ -178,7 +178,7 @@ Each card: `border-radius: 24px`, `padding: 36px 32px`, `border: 2px solid`
 - Three contact rows (icon + text):
   - 📍 Address: 465 Valence Avenue, Dagenham, RM8 3RD
   - 📞 Phone: 07912 343 431 (hours: Mon–Fri, 7:30am – 6pm)
-  - ✉ Email: hello@grownandshine.co.uk
+  - ✉ Email: Lanzanal@aol.com
 - Icon containers: `40px` square, `border-radius: 12px`, tinted backgrounds
 - Google Maps embed: `iframe` for "465 Valence Avenue, Dagenham, RM8 3RD", height `160px`, `border-radius: 16px`
 
@@ -271,7 +271,7 @@ All at `opacity: 0.25–0.4` so they are subtle background decoration.
 ### CTA Buttons
 | Button | Action |
 |--------|--------|
-| Book a Visit / Book a Tour | `mailto:hello@grownandshine.co.uk?subject=Nursery%20Tour` |
+| Book a Visit / Book a Tour | `mailto:Lanzanal@aol.com?subject=Nursery%20Tour` |
 | Call Us | `tel:07912343431` |
 
 ---
@@ -372,7 +372,7 @@ All assets are included in the `images/` folder:
 ## Contact Details (live)
 - **Address:** 465 Valence Avenue, Dagenham, RM8 3RD
 - **Phone:** 07912 343 431
-- **Email:** hello@grownandshine.co.uk
+- **Email:** Lanzanal@aol.com
 - **Hours:** Mon–Fri, 7:30am – 6:00pm
 
 ---
@@ -381,7 +381,7 @@ All assets are included in the `images/` folder:
 ```
 design_handoff_grow_and_shine/
 ├── README.md                          ← This file
-├── Grown and Shine Homepage.dc.html   ← Homepage design reference
+├── grow and Shine Homepage.dc.html   ← Homepage design reference
 ├── Grow and Shine Gallery.dc.html     ← Gallery page design reference
 └── images/
     ├── logo.png
